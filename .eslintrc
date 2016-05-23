@@ -1,0 +1,19 @@
+{
+  "parser": "babel-eslint",
+  "extends": "airbnb/base",
+  "rules": {
+    "arrow-body-style": [0, "as-needed"],
+    "comma-dangle": [2, "never"],
+    "dot-notation": [2, { "allowKeywords": true, "allowPattern": "^[A-Z]+[A-Za-z]+$" }],
+    "vars-on-top": 0,
+    "no-unused-vars": [1, { "vars": "local", "args": "after-used" }],
+    "prefer-const": 0,
+    "semi": [2, "never"],
+    "quotes": [2, "double", { avoidEscape: true }],
+    "import/no-mutable-exports": 0
+  },
+  "globals": {
+    "Promise": false,
+    "R": false
+  }
+}
