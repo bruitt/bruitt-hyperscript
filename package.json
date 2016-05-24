@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/bruitt/hyperscript#readme",
   "dependencies": {
-    "bruitt-classnames": "^1.1.3",
+    "@bruitt/classnames": "^1.1.4",
     "ramda": "^0.21.0",
     "virtual-hyperscript": "^4.6.0"
   },
