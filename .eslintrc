@@ -3,6 +3,7 @@
   "extends": "airbnb/base",
   "rules": {
     "arrow-body-style": [0, "as-needed"],
+    "array-bracket-spacing": ["error", "always", { "objectsInArrays": false, "arraysInArrays": false }],
     "comma-dangle": [2, "never"],
     "dot-notation": [2, { "allowKeywords": true, "allowPattern": "^[A-Z]+[A-Za-z]+$" }],
     "vars-on-top": 0,
