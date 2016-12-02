@@ -22,8 +22,8 @@
   "homepage": "https://github.com/bruitt/hyperscript#readme",
   "dependencies": {
     "@bruitt/classnames": "^1.2.0",
-    "ramda": "^0.22.1",
-    "virtual-hyperscript": "^4.6.0"
+    "parse-sel": "^1.0.0",
+    "ramda": "^0.22.1"
   },
   "devDependencies": {
     "babel-cli": "^6.14.0",
